@@ -26,11 +26,11 @@ $(NAME): $(OBJ)
 	gcc $(FLAGS) -c $< -o $@
 
 clean:
-	saferm $(OBJ)
+	rm $(OBJ)
 	make clean -C libft
 
 fclean: clean
-	saferm $(NAME)
+	rm $(NAME)
 	make fclean -C libft
 
 re: fclean all
