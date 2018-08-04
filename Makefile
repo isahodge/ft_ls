@@ -13,7 +13,7 @@
 NAME = ft_ls
 SRCS = main.c merge_files.c merge_dir.c init.c save_args.c free.c ft_itoa_base.c file_mode.c make_tree.c print_stuff.c
 OBJ = ${SRCS:.c=.o}
-FLAGS = -Wall -Werror -Wextra -g
+FLAGS = -Wall -Werror -Wextra
 LIB = libft/libft.a
 
 all: $(NAME)
